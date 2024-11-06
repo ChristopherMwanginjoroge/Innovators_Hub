@@ -1,0 +1,89 @@
+# Dependency directories
+node_modules/
+dfx_cache/
+
+# Build artifacts
+build/
+dist/
+public/js/
+
+# Compiled Motoko files and intermediate files
+dfx_generated/
+*.wasm
+*.mo.map
+.moc/
+
+# Environment and configuration files
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files and IDE-specific
+*.swp
+*.swo
+*.tmp
+.idea/
+.vscode/
+*.iml
+
+# Ignoring data that shouldn't be in the repository
+backend/.dfx/
+frontend/.dfx/
+frontend/coverage/
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/public/js/
+
+# Ignore specific files and cache folders
+package-lock.json
+yarn.lock
+.cache/
+.parcel-cache/
+
+# Ignore generated canister IDs
+.dfx/local/canister_ids.json
+
+# Miscellaneous system files
+*.bak
+*.backup
+*.orig
+*.rej
+*~
+*.swp
+*.swo
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# TypeScript declaration files (if you're generating them)
+*.d.ts
+
+# Ignore compiled static assets in public folder
+public/assets/
+public/static/
+
+# Ignore debug and testing files
+.cypress/
+__tests__/
+__mocks__/
+*.test.js
+*.spec.js
+jest.config.js
+coverage/
+
+# Ignore credentials or keys
+*.key
+*.pem
